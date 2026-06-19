@@ -1,0 +1,191 @@
+ .header{
+  display:flex;
+  background-color:white;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom-color: rgb(229, 229, 229);
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  z-index:100;
+ }
+
+ .left-section{
+    
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  padding-left:20px;
+ }
+
+
+ .search-button,.voice-button,
+ .uplode{
+  position: relative;
+ }
+
+ .search-button .toolpik,
+ .voice-button .toolpik,
+ .uplode .toolpik
+ {
+  position:absolute;
+  bottom:-50px;
+  background-color: rgb(116, 116, 116);
+  color:white;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border:none;
+  border-radius:2px;
+  opacity:0;
+  text-wrap: nowrap;
+ }
+
+ .search-button:hover .toolpik ,
+  .voice-button:hover .toolpik,
+  .uplode:hover .toolpik  {
+  opacity:1;
+  transition: 0.15s;
+ }
+
+
+
+
+ .middle-section{
+  
+  margin-left: 50px;
+  flex:1;
+  max-width: 500px;
+  margin-right: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;;
+ }
+
+ .search-button{
+  cursor: pointer;
+  width:60px;
+  height:34px;
+  background-color: rgb(239, 238, 238);
+  border-style: solid;
+  border-color:rgb(204, 204, 204);
+  border-width:1px;
+  margin-left:-3px;
+  margin-right: 10px;
+ }
+
+ .search-icon{
+  height:25px;
+  width:25px;
+  object-fit: cover;
+
+ }
+
+ .voice-button{
+  cursor: pointer;
+  width:34px;
+  height:34px;
+  border:none;
+  border-radius: 15px;
+  object-fit: cover;
+
+  
+
+ }
+
+ .voice-icon{
+    
+  margin-top:3px;
+  height:24px;
+  
+ }
+
+ .searchbox{
+  height:30px;
+  flex:1;
+  border-style:solid;
+  border-color:rgb(204, 204, 204);
+  border-radius:4px;
+  border-width:1px;
+  font-size: 18px;
+  width:0;
+  
+ }
+
+ .searchbox::placeholder{
+  font-size: 17px;
+  margin-right:10px;
+ 
+
+ }
+
+.hamburger-icon{
+   cursor: pointer;
+  height:25px;
+  margin-right:23px;
+
+ }
+
+ .youtube-logo{
+   cursor: pointer;
+  height:21px;
+ }
+
+ .right-section{
+  flex-shrink: 0;
+  width:180px;
+  display:flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: space-between;
+ }
+
+ .not-position{
+  position:relative;
+ }
+
+ .degree{
+  font-family: roboto,arial;
+  position:absolute;
+  background-color:rgb(198, 0, 0);
+  color:white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom:1px;
+  padding-top: 1px;
+  border:none;
+  border-radius:17px;
+  right:-8px;;
+  top:-3px;;
+  font-size:13px;
+ }
+
+
+ .uplode-icon{
+   cursor: pointer;
+  height:24px;
+ }
+
+ .youtube-app-icon{
+   cursor: pointer;
+  height:24px;
+ }
+
+ .not-icon{
+   cursor: pointer;
+  height:24px;
+ }
+
+ .current-user{
+   cursor: pointer;
+  height:34px;
+  border:none;
+  border-radius:17px;
+ }
+
+ 
